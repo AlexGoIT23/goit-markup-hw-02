@@ -1,0 +1,61 @@
+/* колір веблого та фільтрів (кнопок) #4D5AE5 */
+/*  другий колір лого, студіо, портфоліо, контакти, заголовки, фон футер  #2E2F42 */
+/* пошта та тел, абзаци #434455 */
+/* фільтр ховер #404BBF */
+/* загальний фон, фільтр хвер текст #FFFFFF */
+/* заливка фільтр #F4F4FD */
+/* колір обводки кнопок фільтра #E7E9FC */
+/* лого футер та абзац #F4F4FD */
+
+body {
+    font-family: 'Roboto';
+    background-color: #FFFFFF;
+    }
+
+.contact-link {
+    font-style: normal;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.logo {
+    font-family: Raleway; 
+    size: 18px; 
+    line-height: 1.2; 
+    color: #4D5AE5;
+    text-decoration: none;       
+}
+
+span {
+   color: #2E2F42; 
+}
+
+.top-link {
+     font-size: 16px;
+     line-height: 1.5;
+     text-decoration: none;  
+}
+
+.marker {
+   list-style-type: none; 
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 1.5; 
+    list-style-type: none;
+}
+
+.btn {
+    color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style-type: none;
+    
+}
+
+.btn:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
