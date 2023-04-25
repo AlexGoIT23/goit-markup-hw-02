@@ -8,7 +8,8 @@
 /* лого футер та абзац #F4F4FD */
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif ;
+    font-size: 16px;
     background-color: #FFFFFF;
     }
 
@@ -20,7 +21,7 @@ body {
 
 .logo {
     font-family: Raleway; 
-    size: 18px; 
+    font-size: 18px; 
     line-height: 1.2; 
     color: #4D5AE5;
     text-decoration: none;       
@@ -54,8 +55,27 @@ span {
     
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
 
+.title-portfolio {
+    line-height: 1.2;
+}
+
+.footer-styles {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+color: #F4F4FD;
+line-height: 1.5;
+text-align: Left;  
+Vertical-align: Top;
+}
