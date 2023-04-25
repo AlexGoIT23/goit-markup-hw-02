@@ -8,8 +8,9 @@
 /* лого футер та абзац #F4F4FD */
 
 body {
-    font-family: 'Roboto' sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: #2E2F42;
     background-color: #FFFFFF;
     }
 
@@ -19,8 +20,13 @@ body {
     color: #2E2F42;
 }
 
+.contact-link:hover,
+.contact-link:focus {
+    color: #404BBF;
+}
+
 .logo {
-    font-family: Raleway; 
+    font-family: 'Raleway', sans-serif; 
     font-size: 18px; 
     line-height: 1.2; 
     color: #4D5AE5;
@@ -33,8 +39,13 @@ span {
 
 .top-link {
      font-size: 16px;
+     font-weight: 500;
      line-height: 1.5;
      text-decoration: none;  
+}
+
+.top-link:active {
+    color: #404BBF;
 }
 
 .marker {
@@ -43,15 +54,21 @@ span {
 
 .contacts {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5; 
     list-style-type: none;
 }
 
 .btn {
     color: #4D5AE5;
+    background-color: #F4F4FD;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     list-style-type: none;
+    cursor: pointer;
+    border-color: #E7E9FC;
+    border-radius: 4px;
     
 }
 
@@ -61,8 +78,17 @@ span {
     color: #FFFFFF;
 }
 
+
 .title-portfolio {
     line-height: 1.2;
+    font-weight: 500;
+}
+
+.marker p {
+    font-size: inherit;
+    color: #434455;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .footer-styles {
@@ -75,7 +101,8 @@ span {
 
 .footer-text {
 color: #F4F4FD;
+font-size: inherit;
 line-height: 1.5;
 text-align: Left;  
-Vertical-align: Top;
+vertical-align: Top;
 }
