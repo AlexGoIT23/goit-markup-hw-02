@@ -63,6 +63,11 @@ span {
     line-height: 1.5; 
 }
 
+h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
 
 .btn {
     color: #4D5AE5;
@@ -84,6 +89,26 @@ span {
     color: #FFFFFF;
 }
 
+.btn-index {
+    color: #FFFFFF;
+        background-color: #4D5AE5;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        list-style: none;
+        cursor: pointer;
+        border-color: #4D5AE5;
+        border-radius: 4px;
+}
+
+.btn-index:hover,
+.btn-index:focus {
+    background-color: var(--hover-color);
+    color: #FFFFFF;
+}
+
 .title-portfolio {
     line-height: 1.2;
     font-weight: 500;
@@ -98,6 +123,14 @@ span {
     font-weight: 400;
 }
 
+.title-index {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .footer-styles {
     background-color: #2E2F42;
 }
