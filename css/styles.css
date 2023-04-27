@@ -85,7 +85,6 @@ span {
     color: #FFFFFF;
 }
 
-
 .title-portfolio {
     line-height: 1.2;
     font-weight: 500;
@@ -96,7 +95,6 @@ span {
 
  p {
     font-size: inherit;
-    /* color: #434455; */
     line-height: 1.5;
     font-weight: 400;
 }
