@@ -40,7 +40,7 @@ body {
     text-transform: uppercase;
 }
 
-span {
+.nav-span {
    color: #2E2F42; 
 }
 
@@ -91,11 +91,12 @@ span {
 }
 
 /* секція кнопок */
-h1 {
+.main-title {
     color: #FFFFFF;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .btn {
