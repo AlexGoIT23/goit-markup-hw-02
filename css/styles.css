@@ -19,6 +19,14 @@ body {
     background-color: #FFFFFF;
     }
 
+.second-section {
+     background-color: #2E2F42;
+    }
+
+.fourth-section {
+    background-color: #F4F4FD;
+    }
+
 .contact-link {
     font-style: normal;
     text-decoration: none;
@@ -64,6 +72,7 @@ span {
 }
 
 h1 {
+    color: #FFFFFF;
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em;
